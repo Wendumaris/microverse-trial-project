@@ -1,10 +1,16 @@
 
+
+.container {
+    background-color: #eee;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1{
     font-size: 35px;
     line-height: 1.2;
-    color: #33333;
+    color: #333;
 }
-
 
 p{
     color: #333333;
@@ -21,27 +27,20 @@ p{
 figcaption{
     color: #333333;
     margin: 15px 0px 5px;
-
+    font-size: 12px;
 }
 
 h3{
-
     color: #333333;
     margin: 50px 0px;
 }
 
 li{
     color: #333333;
-    font-size: 16px;
+    font-size: 14px;
     margin: 16px 0px;
-}
-
-
-
-.container {
-    background-color: #eee;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .timeLines {
@@ -50,25 +49,20 @@ li{
     text-align: left;
 }
 
-li {
-    padding: 10px;
-
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.footer {
-    width: 60%;
-    margin: auto;
-}
-
-.quote{
+.quote, .quote-name{
     font-style: italic;
-}
+    padding-top: 15px;
+    font-size: 14px;
 
-.quote-name{
-    font-style: italic;
 }
 
 .wiki{
     font-weight: bolder;
 }
+
+.footer {
+    width: 65%;
+    margin: 30px auto;
+    font-size: 10px;
+}
+
