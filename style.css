@@ -23,6 +23,12 @@ p{
     background-color:  #ffff;
 }
 
+#image {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
 
 figcaption{
     color: #333333;
